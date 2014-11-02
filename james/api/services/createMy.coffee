@@ -1,10 +1,12 @@
 ### helperService methods for general manipulation ###
 fs = require 'fs-extra'
+path = require 'path'
+
 module.exports = {
 
   semanticFilePath: (string) ->
-    sPath = _path.join(_dirname, "#{string}")
-    fs.mkdirs sPath, (err) ->
+    sPath = path.join('voice/', "#{string}")
+    fs.mkdirs __dirname + "../../" + sPath, (err) ->
       if err then console.error(err)
-      console.log "we're good"
+      console.log "I have made the requested directories"
 }
