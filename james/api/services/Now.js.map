@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "Now.js",
+  "sourceRoot": "",
+  "sources": [
+    "Now.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,gCAAA;AAAA;AAAA;AAAA,MAAA,iBAAA;;AAAA,EACA,EAAA,GAAK,OAAA,CAAQ,IAAR,CADL,CAAA;;AAAA,EAEA,IAAA,GAAO,OAAA,CAAQ,MAAR,CAFP,CAAA;;AAAA,EAGA,OAAA,GAAU,OAAA,CAAQ,SAAR,CAHV,CAAA;AAAA"
+}

@@ -1,0 +1,57 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/james/node_modules/play-audio/node_modules/media/Devfile.js" />
+        <item url="file://$PROJECT_DIR$/james/api/services/Now.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/play-audio/Devfile.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/not-php/bin/speak.php.js" />
+        <item url="file://$PROJECT_DIR$/james/speak.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/not-php/test/lib-test.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/not-php/src/index.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/not-php/test/test_helper.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
+        <item url="file://$PROJECT_DIR$/james/api/services/createMy.js" />
+        <item url="file://$PROJECT_DIR$/james/api/controllers/SayController.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/restless/node_modules/xml2js/incompat.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/restless/node_modules/xml2js/text.js" />
+        <item url="file://$PROJECT_DIR$/james/api/services/parseMy.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/restless/node_modules/xml2js/83.js" />
+        <item url="file://$PROJECT_DIR$/james/api/models/Say.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/james/node_modules/php-template/index.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/php-template/index.js" />
+      <root url="file://$PROJECT_DIR$/james/api/controllers/speakCon.js" />
+      <root url="file://$PROJECT_DIR$/james/api/controllers/Say2Controller.js" />
+      <root url="file://$PROJECT_DIR$/james/api/controllers/speakCon.js" />
+      <root url="file://$PROJECT_DIR$/james/api/controllers/Say2Controller.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/not-php/test/lib-test.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/not-php/src/index.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/not-php/test/test_helper.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/not-php/test/lib-test.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/not-php/src/index.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/not-php/test/test_helper.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/play-audio/node_modules/media/Devfile.js" />
+      <root url="file://$PROJECT_DIR$/james/api/services/Now.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/play-audio/Devfile.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/not-php/bin/speak.php.js" />
+      <root url="file://$PROJECT_DIR$/james/speak.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/not-php/test/lib-test.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/not-php/src/index.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/not-php/test/test_helper.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
+      <root url="file://$PROJECT_DIR$/james/api/services/createMy.js" />
+      <root url="file://$PROJECT_DIR$/james/api/controllers/SayController.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/restless/node_modules/xml2js/incompat.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/restless/node_modules/xml2js/text.js" />
+      <root url="file://$PROJECT_DIR$/james/api/services/parseMy.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/restless/node_modules/xml2js/83.js" />
+      <root url="file://$PROJECT_DIR$/james/api/models/Say.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

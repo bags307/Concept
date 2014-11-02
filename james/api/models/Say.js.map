@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "Say.js",
+  "sourceRoot": "",
+  "sources": [
+    "Say.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAKA;AAAA,EAAA,MAAM,CAAC,OAAP,GAEE;AAAA,IAAA,UAAA,EAAY,EAAZ;GAFF,CAAA;AAAA"
+}
