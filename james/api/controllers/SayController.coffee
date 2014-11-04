@@ -13,12 +13,15 @@ fs = require 'fs'
 module.exports = {
 
 phrase: (req, res) ->
-  foo = req.query.q
-  rest.get 'http://localhost:8082/api/say?q='+req.query.q, (error, data)->
-    soundUrl = "#{data}"
-    splitSoundUrl = soundUrl
-    filePath = parseMy.filenameToPath(foo)
-    console.log filePath
+
+  createFilePath =
+    rest.get 'http://localhost:8082/api/say?q='+req.query.q -> (req, res)->
+    .then (data) ->
+      createMy.semanticFilePath(data)
+
+
+
+
 
 
 

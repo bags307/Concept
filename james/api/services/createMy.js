@@ -3,22 +3,43 @@
 /* helperService methods for general manipulation */
 
 (function() {
-  var fs;
+  var download, fs, iPromise, path;
 
   fs = require('fs-extra');
 
+  path = require('path');
+
+  download = require('simpledownload');
+
+  iPromise = require('promisy');
+
   module.exports = {
-    semanticFilePath: function(string) {
+    semanticFilePath: function(string, result) {
       var sPath;
-      sPath = _path.join(_dirname, "" + string);
-      return fs.mkdirs(sPath, function(err) {
+      sPath = path.join('voice/', "" + string);
+      result = "../../" + sPath;
+      fs.mkdirs("../../" + sPath)(function(err) {
         if (err) {
-          console.error(err);
+          return console.error(err);
+        } else {
+          return function() {
+            return callback(result);
+          };
         }
-        return console.log("we're good");
+      });
+      return console.log("I have made the requested directories");
+    },
+    phraseDownload: function(string) {
+      return iPromise(function(next) {
+        semanticFilePath(string);
+        return console.log("first");
       });
     }
   };
+
+  download("http://194.158.21.231:8081/MESSAGES/  + 012099097112101108097071114111117112/ + AcapelaGroup_WebDemo_HTML/sounds/94327397_d7e5fc3960987.mp3', __dirname + '/test.mp3", function(err) {
+    return console.log('error');
+  });
 
 }).call(this);
 

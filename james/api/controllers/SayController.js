@@ -14,14 +14,11 @@
 
   module.exports = {
     phrase: function(req, res) {
-      var foo;
-      foo = req.query.q;
-      return rest.get('http://localhost:8082/api/say?q=' + req.query.q, function(error, data) {
-        var filePath, soundUrl, splitSoundUrl;
-        soundUrl = "" + data;
-        splitSoundUrl = soundUrl;
-        filePath = parseMy.filenameToPath(foo);
-        return console.log(filePath);
+      var createFilePath;
+      return createFilePath = rest.get('http://localhost:8082/api/say?q=' + req.query.q(function() {
+        return function(req, res) {};
+      })).then(function(data) {
+        return createMy.semanticFilePath(data);
       });
     }
   };

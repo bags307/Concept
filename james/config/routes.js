@@ -34,7 +34,10 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'get /testsay': 'PhraseController.createMyPhrase'
+
 
 
   /***************************************************************************
